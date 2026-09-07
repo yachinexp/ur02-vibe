@@ -1,0 +1,31 @@
+# ===== Python 缓存 / 备份 =====
+__pycache__/
+*.pyc
+*.bak-*
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+
+# ===== 构建产物（PyInstaller 等） =====
+dist/
+dist_old/
+dist_num/
+build/
+*.exe
+
+# ===== 工具链 / 大体积二进制（不入库） =====
+tc32/
+apk_flash/
+fw_capture/
+diag_work/
+diag/
+
+# ===== 音频 / 截图等大文件 =====
+*.wav
+*.mp3
+_smoke_*.png
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
