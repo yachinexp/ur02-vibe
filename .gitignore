@@ -29,3 +29,6 @@ _smoke_*.png
 # ===== 系统文件 =====
 .DS_Store
 Thumbs.db
+
+# ===== 个人配置文件（不入库，他人各自生成） =====
+profiles/*.set
